@@ -1,0 +1,88 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "北京市",
+        "population": 21540000,
+        "description": "中华人民共和国首都"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.4074, 39.9042]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "上海市",
+        "population": 24280000,
+        "description": "中国最大的城市"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4737, 31.2304]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "广州市",
+        "population": 15300000,
+        "description": "广东省省会"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.2644, 23.1291]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "深圳市",
+        "population": 17560000,
+        "description": "经济特区"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.0579, 22.5431]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "示例区域",
+        "area": 1000,
+        "description": "这是一个示例多边形区域"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [116.3, 39.8],
+          [116.5, 39.8],
+          [116.5, 40.0],
+          [116.3, 40.0],
+          [116.3, 39.8]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "示例线路",
+        "length": 50,
+        "description": "这是一条示例线路"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [116.2, 39.9],
+          [116.3, 39.95],
+          [116.4, 39.92],
+          [116.5, 39.98]
+        ]
+      }
+    }
+  ]
+}
